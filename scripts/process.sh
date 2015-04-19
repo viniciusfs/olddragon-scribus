@@ -12,7 +12,7 @@ AVENTURA_TEMPLATE="OD_Template-Aventura-Variaveis.sla"
 AVENTURA_OUTPUT="OD_Template-Aventura.sla"
 SUPLEMENTO_TEMPLATE="OD_Template-Suplemento-Variaveis.sla"
 SUPLEMENTO_OUTPUT="OD_Template-Suplemento.sla"
-EXTRA_FILES="images/img_capa.jpg images/img_lateral-azul.png images/img_lateral-verde.jpg"
+EXTRA_FILES="images/img_capa.jpg images/img_lateral-azul.png images/img_lateral-verde.jpg fonts/*.zip"
 
 
 # functions
