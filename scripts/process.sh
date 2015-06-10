@@ -27,6 +27,8 @@ convert() {
 	${SED_CMD} -i 's/img_lateral_verde_capa/img_lateral_azul_capa/g' ${SUPLEMENTO_TEMPLATE}
 	${SED_CMD} -i 's/img_lateral-verde.jpg/img_lateral-azul.png/g' ${SUPLEMENTO_TEMPLATE}
 	${SED_CMD} -i 's/LOCALSCX=\"0.24\" LOCALSCY=\"0.24\"/LOCALSCX=\"1\" LOCALSCY=\"1\"/g' ${SUPLEMENTO_TEMPLATE}
+	${SED_CMD} -i '/shape_triangulo_amarelo_capa/,+3d' ${SUPLEMENTO_TEMPLATE}
+	${SED_CMD} -i '/txt_codigo_capa/,+4d' ${SUPLEMENTO_TEMPLATE}
 }
 
 replace_data() {
